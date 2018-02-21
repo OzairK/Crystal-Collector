@@ -15,8 +15,6 @@ h1{
 
 
 
-
-
 #instructions {
     background-color: blanchedalmond;
     color: green;
@@ -27,16 +25,17 @@ h1{
     float: left;
     margin-right: 10px;
     background-color: red;
-    margin: 10px;
+    margin: 10px 30px;
     padding: 10px;
 }
 #winLoss {
     
     background-color: aquamarine;   
-        margin: 10px;
-        float: left;
-        width: fit-content;
-        margin: 10px 30px;
+    margin: 10px;
+    float: left;
+    width: fit-content;
+    margin: 10px 30px;
+    padding: 10px;
         
     
 }
@@ -48,10 +47,15 @@ h1{
     width: fit-content;
 }
 
+.crystal {
+    height: 70px;
+    margin: 10px;
+}
+
 #yourScore {
     background-color: darkolivegreen;
     padding: 40px;
-    margin: 10px;
+    margin: 10px 30px;
     width: fit-content;
 }
 

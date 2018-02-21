@@ -19,7 +19,7 @@ function newGame() {
 
 newGame();
 
-
+// on click function add value of crystal to your score and check status
 $("#yellow").on("click", function () {
     yourScore += yellow;
     gameStatus();
@@ -42,6 +42,8 @@ $("#red").on("click", function () {
     gameStatus();
 });
 
+// check to see if user has won or lost, if so start new game and update score board
+// update your score and wins/losses 
 
 function gameStatus() {
     if (yourScore === targetScore) {
@@ -54,13 +56,8 @@ function gameStatus() {
         newGame();
     }
 
-
     $("#yourScore").html("<p> Your Score:<br>" + yourScore + "</p>");
     $("#winLoss").html("<p> wins:  " + wins + "<br>Losses:  " + losses + "</p>");
-
-
-
-
 }
 
 
