@@ -1,0 +1,60 @@
+
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+}
+
+
+h1{
+    width: fit-content;
+    padding: 20px;
+    background-color:orange;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+#instructions {
+    background-color: blanchedalmond;
+    color: green;
+    width: 45%;
+}
+
+#scoreToGet {
+    float: left;
+    margin-right: 10px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+}
+#winLoss {
+    
+    background-color: aquamarine;   
+        margin: 10px;
+        float: left;
+        width: fit-content;
+        margin: 10px 30px;
+        
+    
+}
+
+#crystals {
+    clear: both;
+    background-color: yellowgreen;
+    padding: 30px;
+    width: fit-content;
+}
+
+#yourScore {
+    background-color: darkolivegreen;
+    padding: 40px;
+    margin: 10px;
+    width: fit-content;
+}
+
+
+
+
+
