@@ -16,13 +16,14 @@ h1{
 
 
 
+
 #instructions {
     background-color: blanchedalmond;
     color: green;
     width: 45%;
 }
 
-#scoreToGet {
+#targetScore {
     float: left;
     margin-right: 10px;
     background-color: red;
