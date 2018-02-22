@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background1.jpeg");
     background-repeat: repeat;
 }
 
@@ -24,7 +24,7 @@ h1{
 #targetScore {
     float: left;
     margin-right: 10px;
-    background-color: red;
+    background-color: tan;
     margin: 10px 30px;
     padding: 10px;
 }
